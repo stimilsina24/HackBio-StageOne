@@ -1,5 +1,5 @@
 # My submission for Stage 1 of HackBio internship. 
-*The full code is included in the simple_code.py file.*
+### *The full code is included in the simple_code.py file.*
 
 ## For this stage, I generated:
 ### 1) Python functions to perform hamming distance between 2 strings(Slack username and X username) or translate protein, both based on user input. 
