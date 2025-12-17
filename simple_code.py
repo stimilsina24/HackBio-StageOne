@@ -114,12 +114,11 @@ df_de = pd.read_csv(de_url, index_col = 0) # Chromosome 22, DE results
 df_counts.head() #Preview the counts dataset
 df_de.head() #Preview the differential expression dataset
 
-#Clustermap of data 
+#Clustermap of data h
 cmap_fig = 'Clustermap_fig.png'
 cmap_fig_path = os.path.join(figures, cmap_fig) # Join figure directory and filename
 cmap = sns.clustermap(df_counts, cmap = "Blues",linewidths = 1,linecolor = "Black", figsize=(4,8))
-plt.show()
-plt.savefig(cmap_fig_path)
+cmap.savefig(cmap_fig_path, dpi=300, bbox_inches='tight')
 
 #Create a figure with subplots using matplotlib
 fig, axes = plt.subplots(2,3,figsize = (12,8)) #create subplots with 2 rows, 3 columns and size of 12 x 8
