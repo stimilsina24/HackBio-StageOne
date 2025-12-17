@@ -1,9 +1,9 @@
-## My submission for Stage 1 of HackBio internship. 
+# My submission for Stage 1 of HackBio internship. 
 
-### For this stage, I generated:
-#### 1) Python functions to perform hamming distance between 2 strings(Slack username and X username) or translate protein, both based on user input. 
+## For this stage, I generated:
+### 1) Python functions to perform hamming distance between 2 strings(Slack username and X username) or translate protein, both based on user input. 
 
-#### 2) Python code to replicate a figure panel based on meta-analysis of human tissue:
+### 2) Python code to replicate a figure panel based on meta-analysis of human tissue:
 
 **Part A – Gene Expression Analysis(panels a-b)** 
  
@@ -16,6 +16,8 @@
 *Samples:* **Wisconsin Breast Cancer Database(WDBC)**: Breast cancer images classified as Malignant(M) or Benign(B) based on 30 numerical features.   
 
 *Goal:* Compare qualitative features between benign and malignant Breast cancer samples.   
+
+**Figures:**
 
 ![Figure Panels a-f](figures/Figure-panel.png)
 
