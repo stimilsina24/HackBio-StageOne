@@ -1,10 +1,9 @@
 ## My submission for Stage 1 of HackBio internship. 
 
 ### For this stage, I generated:
+#### 1) Python functions to perform hamming distance between 2 strings(Slack username and X username) or translate protein, both based on user input. 
 
-1) Python functions to perform hamming distance between 2 strings(Slack username and X username) or translate protein, both based on user input. 
-
-2) Python code to replicate a figure panel based on meta-analysis of human tissue:
+#### 2) Python code to replicate a figure panel based on meta-analysis of human tissue:
 
 **Part A – Gene Expression Analysis(panels a-b)** 
  
@@ -19,10 +18,15 @@
 *Goal:* Compare qualitative features between benign and malignant Breast cancer samples.   
 
 ![Figure Panels a-f](figures/Figure-panel.png)
-<p style="text-align:justify;"> **a)** Clustered heatmap of the top differentially expressed genes based on the normalized counts between HBR and UHR. **b)** Volcano Plot- log2FoldChange vs log10(Padj) from the differential lyexpressed genes on chromosome 22 between UHR and HBR samples.**c)** Scatter Plot of (radius vs texture), colored by diagnosis (M = malignant, B = benign). **d)** Correlation Heatmap- Heatmap of correlation matrix(plus annotation) of six key features: radius_mean, texture_mean, perimeter_mean, area_mean, smoothness_mean, compactness_mean. **e)** Scatter Plot of Compactness_mean vs smoothness_mean colored by diagnosis. **f)** Kernel density estimates (KDE) of area_mean for Malignant(M) and Benign(B) samples.</p>  
+
+<p style="text-align:justify;"> 
+<b>(a)</b> Clustered heatmap of the top differentially expressed genes based on the normalized counts between HBR and UHR. <b>(b)</b> Volcano Plot- log2FoldChange vs log10(Padj) from the differential lyexpressed genes on chromosome 22 between UHR and HBR samples.<b>(c)</b> Scatter Plot of (radius vs texture), colored by diagnosis (M = malignant, B = benign). <b>(d)</b> Correlation Heatmap- Heatmap of correlation matrix(plus annotation) of six key features: radius_mean, texture_mean, perimeter_mean, area_mean, smoothness_mean, compactness_mean. <b>(e)</b> Scatter Plot of Compactness_mean vs smoothness_mean colored by diagnosis. <b>(f)</b> Kernel density estimates (KDE) of area_mean for Malignant(M) and Benign(B) samples.
+</p>  
 
 **Findings:**  
 *Part A*- Generated many differentially expressed genes that are visibly altered in UHR(Cancer) vs HBR(normal tissue).
 
-<p style="text-align:justify;">Your text here</p>*Part B*- There is a strong correlation between many of the features in the WDBC, especially between perimeter, area, and radius means.  A distinct distribution profile was observed between Malignant vs Benign for area mean.</p>
+<p style="text-align:justify;">
+<em>Part B</em>- There is a strong correlation between many of the features in the WDBC, especially between perimeter, area, and radius means.  A distinct distribution profile was observed between Malignant vs Benign for area mean.
+</p>
 
